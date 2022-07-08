@@ -1,0 +1,158 @@
+*{
+    font-weight: 500;
+    font-size: 2.8vw;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+
+    background-color: #294A70;
+}
+
+.main{
+}
+
+.wrap{
+    width: 80%;
+    margin: auto;
+}
+
+.login-container{
+    margin-top: 50px;
+    border-radius: 2em;
+    width: 100%;
+    padding: 50px 0;   
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+.inputs label{
+    margin:0 0 10px 12px;
+}
+.inputs input{
+    border: 0px solid;
+    border:  2px rgba(34, 34, 34, 0.308) solid;
+    border-radius: 100px;
+    padding: 0px 20px;
+    color: rgba(34, 34, 34, 0.596);
+}
+
+
+.dropdowns label{
+    margin:0 0 10px 13px;
+}
+.dropdowns{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.dropdowns select{
+    margin-bottom: 25px;
+    border-radius: 100px;
+    border:  2px rgba(34, 34, 34, 0.308) solid;
+    width: 100%;
+    background-color: #fff;
+    color: rgba(34, 34, 34, 0.308);
+    padding: 10px 15px;
+}
+
+.branding{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.branding h1{
+    font-weight: 700;
+    font-size: 6vw;
+}
+
+
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    color: #fff;
+    background-color: #294A70;
+    border-radius: 100px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button:hover{
+    background-color: #F4B844;
+    cursor: pointer;
+}
+
+.logo{   
+    margin: 30px 0 0 30px;
+    display: flex;
+}
+.logo img{
+    width: 85px;
+}
+
+/* screen responsiveness */
+@media only screen and (max-width: 670px) {
+    .main{
+        height: 100vh;
+    }
+    
+    .logo{
+        margin: 0;
+        margin-top: 30px;
+        justify-content: center;
+    }
+    .button{
+        height: 8vw;
+    }
+    
+    .inputs label{
+        margin:0 0 10px 13px;
+    }
+
+    .inputs input{
+        height: 7vw;
+        padding: 3px 20px;
+    }
+  }
+
+@media only screen and (min-width: 670px) {
+    .main{
+        margin: auto;
+        padding-bottom: 100px;
+        width: 80%;
+    }
+
+    .login-container{
+        margin-top: 50px;
+        border-radius: 2em;
+        width: 600px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+    }
+    .inputs input{
+        padding: 13px 20px;
+    }
+    *{
+        font-size: 15px;
+    }
+    .branding h1{
+        font-size: 25px;
+    }
+    .button{
+        height: 47px;
+        width: 43%;
+    }
+  }

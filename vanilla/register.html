@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/register.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="/assets/logo.png" alt="">
+    </div>
+    <div class="main">
+
+        <div class="login-container">
+            <div class="wrap">
+    
+                <!-- Log In Title -->
+                <div class="branding">
+                    <H1>ACCOUNT</H1>
+                    <H1>REGISTRATION</H1>
+                    <p> PLEASE ENTER USER CREDENTIALS</p>
+                </div>
+    
+                <!-- Log In Form -->
+                <div class="inputs-cont">
+                    <div class="inputs">
+                        <label for="fname">Id Number</label>
+                        <input type="text" id="idnum" name="Password" placeholder="ID NUMBER"><br><br>
+                    </div>
+                    <div class="inputs">
+                        <label for="fname">Password</label>
+                        <input type="text" id="pass" name="Password" placeholder="ENTER PASSWORD"><br><br>
+                    </div>
+                    <div class="inputs">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="name" name="IDNumber" placeholder="ENTER FULL NAME"><br><br>
+                    </div>
+                    <div class="inputs">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="name" name="IDNumber" placeholder="ENTER FULL NAME"><br><br>
+                    </div>
+                    <div class="inputs">
+                        <label for="MI">Middle Initial</label>
+                        <input type="text" id="name" name="IDNumber" placeholder="ENTER FULL NAME"><br><br>
+                    </div>
+
+                    <div class="dropdowns">
+                        
+                        <label for="Org">Organization</label>
+                        <select name="cars" id="cars">
+                            <option value="default">SELECT ORGANIZATION</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        
+                        <label for="MI">Department</label>
+                        <select name="cars" id="cars">
+                            <option value="def1ault">SELECT DEPARTMENT</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div>
+
+                </div>
+    
+                <div class="buttons">
+                        <!-- Log In Button -->
+                    <div class="button" onclick="register()">
+                        <p>REGISTER</p>
+                    </div>
+                    <!-- Cancel/Clear txt-boxes Button -->
+                    <div class="button" onclick="clear()">
+                        <p>CANCEL</p>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
