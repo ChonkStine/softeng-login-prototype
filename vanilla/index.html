@@ -4,43 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>USL Reserves</title>
 </head>
 <link rel="stylesheet" href="/assets/styles.css">
+<script src="index.js"></script>
 <body>
-    <div class="logo">
+    <!-- <div class="logo">
         <img src="/assets/logo.png" alt="">
-    </div>
+    </div> -->
 
     <div class="main">
 
+        <div class="titling">
+            <div class="biglogo">
+                <img src="/assets//logo.png" alt="">
+            </div>
+
+            <div class="texts">
+                <div class="bigtext">
+                    <p>UNIVERSITY OF</p>
+                    <P class="saint">SAINT LOUIS</P>
+                </div>
+                <div class="smalltext">
+
+                </div>
+            </div>
+        </div>
+
         <div class="login-container">
-            
             <div class="wrap">
+
+                <!-- Log In Title -->
                 <div class="branding">
                     <H1>SIGN-IN</H1>
                     <p> PLEASE ENTER YOUR CREDENTIALS</p>
-    
                 </div>
-    
+
+                <!-- Log In Form -->
                 <div class="inputs-cont">
                     <div class="inputs">
-                        <label for="fname">User ID</label>
-                        <input type="text" id="fname" name="fname" placeholder="PLEASE ENTER YOUR UID"><br><br>
+                        <label for="fname">ID NUMBER</label>
+                        <input type="text" id="id" name="IDNumber" placeholder="ENTER YOUR ID NUMBER"><br><br>
                     </div>
-        
                     <div class="inputs">
-                        <label for="fname">Password</label>
-                        <input type="text" id="fname" name="fname" placeholder="PLEASE ENTER YOUR PASSWORD"><br><br>
-                        <a href="">forgot password?</a>
+                        <label for="fname">PASSWORD</label>
+                        <input type="password" id="pass" name="Password" placeholder="ENTER YOUR PASSWORD"><br><br>
+                        <a href="">FORGOT PASSWORD?</a>
                     </div>
                 </div>
-      
-                <div class="button">
-                    <p>SIGN-IN</p>
-                </div>
-            </div>
 
+                <!-- Log In Button -->
+                <div class="button" onclick="register()">
+                    <p>SIGN IN</p>
+                </div>
+
+            </div>
         </div>
 
     </div>
