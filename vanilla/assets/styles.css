@@ -23,10 +23,9 @@ body{
 }
 
 .login-container{
-    margin-top: 50px;
     border-radius: 2em;
     width: 100%;
-    padding: 50px 0;   
+    padding: 100px 0;   
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -75,7 +74,6 @@ body{
 }
 
 .branding{
-    margin-top: 80px;
     margin-bottom: 50px;
     text-align: center;
 }
@@ -172,7 +170,7 @@ body{
         padding: 13px 20px;
     }
     .branding h1{
-        font-size: 25px;
+        font-size: 35px;
     }
     .button{
         height: 47px;
