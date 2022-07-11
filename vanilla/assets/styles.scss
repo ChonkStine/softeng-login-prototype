@@ -8,9 +8,6 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 body{
-    /* background-image: url(/assets/usltbg.png);
-    background-size: 210vh;
-    background-repeat: no-repeat; */
     background-color: #294A70;
 }
 
@@ -35,34 +32,36 @@ body{
     display: flex;
     flex-direction: column;
     margin-bottom: 35px;
-}
-.inputs a{
-    text-align: right;
-    margin-top: 10px;
-    font-size: 12px;
-    margin-bottom: 50px;
-    color: #294A70;
-}
-.inputs label{
-    margin:0 0 10px 12px;
-}
-.inputs input{
-    border: 0px solid;
-    border:  2px rgba(34, 34, 34, 0.308) solid;
-    border-radius: 100px;
-    padding: 15px 30px;
-    color: rgba(34, 34, 34, 0.596);
-    font-size: 14px; 
-}
-
-.texts .bigtext p{
-    font-size: 3vw;
-    font-weight: 700;
-    color: #fff;
+    
+    a{
+        text-align: right;
+        margin-top: 10px;
+        font-size: 12px;
+        margin-bottom: 50px;
+        color: #294A70;
+    }
+    label{
+        margin:0 0 10px 12px;
+    }
+    input{
+        border: 0px solid;
+        border:  2px rgba(34, 34, 34, 0.308) solid;
+        border-radius: 100px;
+        padding: 15px 30px;
+        color: rgba(34, 34, 34, 0.596);
+        font-size: 14px; 
+    }
 }
 
-.texts .bigtext .saint{
-    color: #F4B844;
+.texts .bigtext{
+     p{
+        font-size: 3vw;
+        font-weight: 700;
+        color: #fff;
+    }
+    .saint{
+        color: #F4B844;
+    }
 }
 
 .wrap{
@@ -76,10 +75,10 @@ body{
 .branding{
     margin-bottom: 50px;
     text-align: center;
-}
-.branding h1{
-    font-weight: 700;
-    font-size: 6vw;
+    h1{
+        font-weight: 700;
+        font-size: 6vw;
+    }
 }
 
 .button{
@@ -89,21 +88,22 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.button:hover{
-    background-color: #F4B844;
-    cursor: pointer;
-}
-.button p{
-    color: #fff;
+
+    &:hover{
+        background-color: #F4B844;
+        cursor: pointer;
+    }
+    p{
+        color: #fff;
+    }
 }
 
 .logo{   
     margin: 30px 0 0 30px;
     display: flex;
-}
-.logo img{
-    width: 85px;
+    img{
+        width: 85px;
+    }
 }
 
 /* screen responsiveness */
@@ -118,6 +118,7 @@ body{
         margin-top: 30px;
         justify-content: center;
     }
+
     .button{
         height: 8vw;
     }
@@ -127,15 +128,16 @@ body{
         border-bottom-right-radius: 0%;
         border-bottom-left-radius: 0%;
     }
-    .inputs label{
-        margin:0 0 10px 13px;
-    }
 
-    .inputs input{
-        height: 7vw;
-        padding: 3px 20px;
-    } 
- 
+    .inputs{ 
+        label{
+            margin:0 0 10px 13px;
+        }
+        input{
+            height: 7vw;
+            padding: 3px 20px;
+        }  
+    }    
     
 }
 
@@ -159,6 +161,7 @@ body{
         
     }
     .login-container{
+        margin-top: 50px;
         border-radius: 2em;
         width: 600px;
         background-color: #fff;
